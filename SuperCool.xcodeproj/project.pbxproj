@@ -13,6 +13,8 @@
 		3C8642F21B9B5F3000006FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8642F11B9B5F3000006FBD /* Images.xcassets */; };
 		3C8642F51B9B5F3000006FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8642F31B9B5F3000006FBD /* LaunchScreen.xib */; };
 		3C8643011B9B5F3000006FBD /* SuperCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8643001B9B5F3000006FBD /* SuperCoolTests.swift */; };
+		3C86430B1B9B623600006FBD /* Boom-App.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C86430A1B9B623600006FBD /* Boom-App.png */; };
+		3C86430F1B9B657D00006FBD /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C86430E1B9B657D00006FBD /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3C8642FA1B9B5F3000006FBD /* SuperCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8642FF1B9B5F3000006FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8643001B9B5F3000006FBD /* SuperCoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCoolTests.swift; sourceTree = "<group>"; };
+		3C86430A1B9B623600006FBD /* Boom-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boom-App.png"; path = "../../../../../Downloads/Boom-App.png"; sourceTree = "<group>"; };
+		3C86430E1B9B657D00006FBD /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = "../../../../../Downloads/Blue-dotted-background/bg.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				3C8642EC1B9B5F3000006FBD /* ViewController.swift */,
 				3C8642EE1B9B5F3000006FBD /* Main.storyboard */,
 				3C8642F11B9B5F3000006FBD /* Images.xcassets */,
+				3C86430E1B9B657D00006FBD /* bg.jpg */,
+				3C86430A1B9B623600006FBD /* Boom-App.png */,
 				3C8642F31B9B5F3000006FBD /* LaunchScreen.xib */,
 				3C8642E81B9B5F3000006FBD /* Supporting Files */,
 			);
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86430F1B9B657D00006FBD /* bg.jpg in Resources */,
 				3C8642F01B9B5F3000006FBD /* Main.storyboard in Resources */,
 				3C8642F51B9B5F3000006FBD /* LaunchScreen.xib in Resources */,
+				3C86430B1B9B623600006FBD /* Boom-App.png in Resources */,
 				3C8642F21B9B5F3000006FBD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
